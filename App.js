@@ -6,7 +6,7 @@ import Exemplo01 from './src/exemplos/ex01';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo01/>
+      <Exemplo01 />
       <StatusBar style="auto" />
     </View>
   );
@@ -18,6 +18,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#f00',
     // alignItems: 'center',
     // justifyContent: 'center',
-    padding:10,
+    padding: 10,
   },
 });
