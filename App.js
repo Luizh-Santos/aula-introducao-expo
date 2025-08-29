@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Constants from 'expo-constants';
 
 import Exemplo01 from './src/exemplos/ex01';
 
@@ -19,5 +20,6 @@ const styles = StyleSheet.create({
     // alignItems: 'center',
     // justifyContent: 'center',
     padding: 10,
+    paddingTop: Constants.statusBarHeight,
   },
 });
