@@ -15,7 +15,7 @@ export default function Atividade02() {
                 descricao={'Camisa com listras largas, modelo 2024'}
                 valor={'R$350'}>
             </Mensagem>
-            <Mensagem titulo={'Sucesso'}>Acesso Permitido</Mensagem>
+            <Mensagem titulo={'Camisa Preta'}>Camisa com listras largas, modelo 2024</Mensagem>
             <Mensagem titulo={'Aviso'}>O Tempo Acabou!</Mensagem>
 
         </View>

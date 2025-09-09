@@ -24,6 +24,8 @@ const styles = StyleSheet.create(
       
          descricao: {
             fontSize: RFPercentage(1),
+            color:'#B71C1C',
+
            
         },
         valor:{

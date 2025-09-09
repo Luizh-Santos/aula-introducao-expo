@@ -10,6 +10,8 @@ import Exemplo02 from './src/exemplos/ex02';
 
 import Atividade02 from './src/atividades1/atv2';
 
+import Exemplo03 from './src/exemplos/ex03';
+
 
 
 
@@ -18,7 +20,7 @@ import Atividade02 from './src/atividades1/atv2';
 export default function App() {
   return ( 
     <View style={styles.container}>
-      <Atividade02/>
+      <Exemplo03/>
       <StatusBar style="auto" />
     </View>
   );
