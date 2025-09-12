@@ -5,22 +5,38 @@ const styles = StyleSheet.create(
     {
         container: {
             backgroundColor: '#E3F2FD',
-            padding: 8,
+            padding: 5,
             flex: 1,
             alignItems: 'center',
-            justifyContent: 'space-evenly'
-
+            justifyContent: 'space-evenly',
+            
         },
+
+        containerbotao: {
+            backgroundColor: 'white',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'row',
+            gap: RFPercentage(5),
+        },
+         containerbotaoz: {
+            backgroundColor: 'white',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'row',
+            gap: RFPercentage(1.5),
+        },
+         
 
         titulo: {
             fontSize: RFPercentage(3),
             fontWeight: 'bold',
             color: '#1E88E5',
-            marginTop: 10,
-            marginBottom: 10,
+            marginTop: 1,
+            marginBottom: 1,
             padding: 8,
             width: '100%',
-            height: 80,
+            height: 50,
             textAlign: 'center',
             textAlignVertical: 'center',
 
@@ -34,19 +50,32 @@ const styles = StyleSheet.create(
 
         botao: {
             backgroundColor: "#0D47A1",
-            width: '50%',
+            width: '30%',
             borderRadius: RFPercentage(1),
-            padding:RFPercentage(1),
+            padding: RFPercentage(1),
             alignItems: 'center',
+
+
         },
 
+         botao2: {
+            backgroundColor: "#0D47A1",
+            width: '50%',
+            borderRadius: RFPercentage(1),
+            padding: RFPercentage(1),
+            alignItems: 'center',
+        },
         txtBotao: {
             color: "#FAFAFA",
             fontSize: RFPercentage(2),
-            
+
 
         },
+         
 
+       
+
+        
 
     }
 );
