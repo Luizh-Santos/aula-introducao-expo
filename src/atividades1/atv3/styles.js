@@ -24,7 +24,7 @@ const styles = StyleSheet.create(
             alignItems: 'center',
             justifyContent: 'center',
             flexDirection: 'row',
-            gap: RFPercentage(1.5),
+            
         },
          
 
@@ -60,7 +60,7 @@ const styles = StyleSheet.create(
 
          botao2: {
             backgroundColor: "#0D47A1",
-            width: '50%',
+            width: '100%',
             borderRadius: RFPercentage(1),
             padding: RFPercentage(1),
             alignItems: 'center',

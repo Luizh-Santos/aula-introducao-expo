@@ -13,11 +13,11 @@ export default function Atividade03() {
     }
     function handleDecrementar() {
         setNumero(numero - 1);
-       
+
     }
     function handleZerar() {
-        setNumero(numero - numero);
-        
+        setNumero(0);
+
     }
 
     return (
@@ -26,32 +26,29 @@ export default function Atividade03() {
 
 
 
-       <View style={styles.containerbotao}> <TouchableOpacity
+            <View style={styles.containerbotao}> <TouchableOpacity
                 style={styles.botao}
                 onPress={() => handleDecrementar()}
             >
                 <Text style={styles.txtBotao}>-</Text>
             </TouchableOpacity>
-           
+                <Text style={styles.txt}>{numero}</Text>
+                <TouchableOpacity
+                    style={styles.botao}
+                    onPress={() => handleIncrementar()}
+                >
+                    <Text style={styles.txtBotao}>+</Text>
+                </TouchableOpacity>
+            </View>
 
-            <Text style={styles.txt}>{numero}</Text>
-
-            <TouchableOpacity
-                style={styles.botao}
-                onPress={() => handleIncrementar()}
-            >
-                <Text style={styles.txtBotao}>+</Text>
-            </TouchableOpacity>
-</View>
-
- <View style={styles.containerbotaoz}> 
-            <TouchableOpacity
-                style={styles.botao2}
-                onPress={() => handleZerar()}
-            >
-                <Text style={styles.txtBotao}>Zerar</Text>
-            </TouchableOpacity>
-           </View>
+            <View style={styles.containerbotaoz}>
+                <TouchableOpacity
+                    style={styles.botao2}
+                    onPress={() => handleZerar()}
+                >
+                    <Text style={styles.txtBotao}>Zerar</Text>
+                </TouchableOpacity>
+            </View>
 
 
 
