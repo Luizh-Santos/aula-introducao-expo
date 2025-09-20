@@ -7,6 +7,14 @@ export default function Exemplo04() {
 
     const [texto, setTexto] = useState('')
     const [txt2, setTxt2] = useState('')
+    const [mensagem, setMensagem] = useState('')
+
+    function handleExibeMensagem() {
+        setMensagem(txt2);
+        setTxt2('');
+    }
+
+
     return (
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo 4</Text>
@@ -24,7 +32,7 @@ export default function Exemplo04() {
 
             />
 
-            <Text style={styles.txt}>{txt2}</Text>
+            <Text style={styles.txt}>{mensagem}</Text>
             <TextInput
                 onChangeText={setTxt2}
                 placeholder='Digite seu Número'
@@ -39,7 +47,7 @@ export default function Exemplo04() {
 
             <TouchableOpacity
                 style={styles.botao}
-                onPress={() => { }}>
+                onPress={() => handleExibeMensagem()}>
 
                 <Text style={styles.txtBotao}>Exibir Texto</Text>
             </TouchableOpacity>

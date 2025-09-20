@@ -44,7 +44,6 @@ const styles = StyleSheet.create(
             color: "#FAFAFA",
             fontSize: RFPercentage(2),
             
-
         },
 
     }
