@@ -17,33 +17,43 @@ const styles = StyleSheet.create(
         },
 
         button: {
-            backgroundColor: "#E53935",
+            backgroundColor: "#0D47A1",
             height: 40,
             justifyContent: 'center',
             borderRadius: 10,
             marginTop: 20,
+           
         },
         textButton: {
             fontSize: 22,
-            color: "#Ffcdd2",
+            color: "#64B5F6",
             textAlign: 'center',
+            
 
+        },
+
+        textLabel: {
+            fontSize: 16,
+            color: "#0D47A1",
+             fontWeight: 'bold',
         },
         txtSaida: {
             margin: 24,
             fontSize: 22,
             fontWeight: 'bold',
             textAlign: 'center',
-            color: '#E53935',
+            color: '#0D47A1',
+           
         },
         txtEntrada: {
             borderWidth: 4,
             textAlign: 'center',
             fontSize: 22,
-            borderColor: '#b71c1c',
+            borderColor: '#0D47A1',
             height: 40,
-            color: '#E53935',
+            color: '#0D47A1',
             borderRadius: 10,
+           
 
 
         },
@@ -52,7 +62,7 @@ const styles = StyleSheet.create(
             fontSize: 26,
             fontWeight: 'bold',
             textAlign: 'center',
-            color: '#b71c1c',
+            color: '#0D47A1',
         },
 
     }

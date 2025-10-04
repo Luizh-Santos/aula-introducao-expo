@@ -44,6 +44,7 @@ const styles = StyleSheet.create(
             height: 40,
             color: '#E53935',
             borderRadius: 10,
+            marginTop: 10,
 
 
         },
@@ -54,6 +55,14 @@ const styles = StyleSheet.create(
             textAlign: 'center',
             color: '#b71c1c',
         },
+
+        text: {
+            margin: 24,
+            fontSize: 15,
+            fontWeight: 'bold',
+            textAlign: 'center',
+            color: '#b71c1c',
+        }
 
     }
 );
