@@ -53,6 +53,7 @@ const styles = StyleSheet.create(
             height: 40,
             color: '#0D47A1',
             borderRadius: 10,
+            padding: RFPercentage(2),    
            
 
 
