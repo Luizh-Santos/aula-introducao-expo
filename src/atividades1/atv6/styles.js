@@ -19,24 +19,35 @@ const styles = StyleSheet.create(
         button: {
             backgroundColor: "#0D47A1",
             height: 40,
-            width: 50,
+            width: 80,
             justifyContent: 'center',
             borderRadius: 10,
             marginTop: 20,
-           
+
         },
+        button2: {
+           backgroundColor: "#0D47A1",
+            height: 40,
+            width: 80,
+            justifyContent: 'center',
+            borderRadius: 10,
+            marginTop: 20, 
+           
+
+        },
+
         textButton: {
             fontSize: 22,
             color: "#64B5F6",
             textAlign: 'center',
-            
+
 
         },
 
         textLabel: {
             fontSize: 16,
             color: "#0D47A1",
-             fontWeight: 'bold',
+            fontWeight: 'bold',
         },
         txtSaida: {
             margin: 10,
@@ -44,7 +55,7 @@ const styles = StyleSheet.create(
             fontWeight: 'bold',
             textAlign: 'center',
             color: '#0D47A1',
-           
+
         },
         txtEntrada: {
             borderWidth: 4,
@@ -54,7 +65,7 @@ const styles = StyleSheet.create(
             height: 54,
             color: '#0D47A1',
             borderRadius: 10,
-            
+
 
         },
         paragraph: {
@@ -65,6 +76,25 @@ const styles = StyleSheet.create(
             color: '#0D47A1',
         },
 
+        containerbotaoz: {
+
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'row',
+            float: 'left',
+            gap: 20,
+            marginTop: 10,
+            marginBottom: 10,
+            
+
+        },
+        containerbotao: {
+            backgroundColor: 'white',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'row',
+            gap: RFPercentage(5),
+        },
     }
 );
 
