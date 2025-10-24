@@ -11,15 +11,15 @@ const styles = StyleSheet.create(
             padding: 8,
         },
 
-        input: {
+        // input: {
 
-            height: 80,
-            width: '50%',
-            textAlign: "center",
-            fontSize: 50,
-            marginTop: 24,
-            color: '#0D47A1',
-        },
+        //     height: 80,
+        //     width: '50%',
+        //     textAlign: "center",
+        //     fontSize: 50,
+        //     marginTop: 24,
+        //     color: '#0D47A1',
+        // },
 
         button: {
             backgroundColor: "#0D47A1",
